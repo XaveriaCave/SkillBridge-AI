@@ -1296,7 +1296,21 @@
             backdrop-filter: blur(20px);
         }
 
+        @media screen and (min-width: 900px) {
+            .waitlist-submit {
+                padding: 1rem 1.5rem;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .waitlist-submit {
+                padding: 0px 12px 0px 10px;
+            }
+        }
+
         .overlay-content {
+            height: 90%;
+            overflow: auto;
             background: var(--hud-bg);
             border: 2px solid var(--neon-blue);
             width: 90%;
